@@ -1,0 +1,793 @@
+ /*************************************
+
+Template Name: PRIDE - Personal Portfolio Template
+Author: perfect_coders
+Version: 1.0
+Design and Developed by: perfect_coders
+
+NOTE: This is main stylesheet of the template.
+
+****************************************/
+
+/*================================================
+            Table of contents  
+==================================================
+ 
+00. base css
+01. preloader
+02. section title and padding
+03. intro section
+04. about section
+05. service section
+06. quotes area
+07. footer section
+
+====================================================
+            End table content 
+===================================================*/
+
+.main-menu ul.navbar-nav li.active a.theme-color{
+    color: #D2527F;
+}
+.main-menu ul.navbar-nav li:hover a.theme-color{
+    color: #D2527F;
+}
+.welcome-text h1 span.theme-color{
+    color: #D2527F;
+}
+.banner-icon.theme-color{
+    color: #D2527F;
+}
+.btn.theme-color, a.btn.theme-color{
+    background: #D2527F;
+    color: #fff;
+}
+.social-icon.theme-color a:hover{
+    background: #D2527F;
+    color: #fff;
+}
+.section-title h2 span.theme-color {
+  color: #D2527F;
+}
+.review-list .owl-dots div.active{
+    background: #D2527F;
+}
+
+/*========================
+    DEMO PANEL CSS
+=========================*/
+.demo_panel_box{
+    position: fixed;
+    width: 180px;
+    height: 140px;
+    background: #e6e6e6;
+    left: -180px;
+    top: 180px;
+    text-align: center;
+    z-index: 99;
+}
+.color_panel_box {
+  margin-top: 20px;
+  padding: 0 12px;
+}
+.spiner_button{
+    height: 50px;
+    width: 50px;
+    background: #44b272;
+    position: absolute;
+    display: block;
+    right: -50px;;
+    top: 0px;
+    z-index: 99;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 5px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+.color_panel_box span{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    display: block;
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+}
+.color_panel_box span.red_color{
+    background-color: #DC143C;
+}
+.color_panel_box span.blue_color{
+    background-color: #4183D7;
+}
+.color_panel_box span.yellow_color{
+    background-color: #ffd505;
+}
+.color_panel_box span.purple_color{
+    background-color: #663399;
+}
+.color_panel_box span.pink_color{
+    background-color: #D2527F;
+}
+.color_panel_box span.green_color{
+    background-color: #44b272;
+}
+
+/*======= yellow =========*/
+.yellow_color_theme .main-menu ul.navbar-nav li.active a.theme-color{
+    color: #ffd505;
+}
+.yellow_color_theme .main-menu ul.navbar-nav li:hover a.theme-color{
+    color: #ffd505;
+}
+.yellow_color_theme .welcome-text h1 span.theme-color{
+    color: #ffd505;
+}
+.yellow_color_theme .banner-icon.theme-color{
+    color: #ffd505;
+}
+.yellow_color_theme .btn.theme-color, .yellow_color_theme a.btn.theme-color{
+    background: #ffd505;
+}
+.yellow_color_theme .social-icon.theme-color a:hover{
+    background: #ffd505;
+    color: #fff;
+}
+.yellow_color_theme .section-title h2 span.theme-color {
+  color: #ffd505;
+}
+.yellow_color_theme .review-list .owl-dots div.active{
+    background: #ffd505;
+}
+/*======= end yellow =========*/
+
+/*=========== red ===========*/
+.red_color_theme .main-menu ul.navbar-nav li.active a.theme-color{
+    color: #DC143C;
+}
+.red_color_theme .main-menu ul.navbar-nav li:hover a.theme-color{
+    color: #DC143C;
+}
+.red_color_theme .welcome-text h1 span.theme-color{
+    color: #DC143C;
+}
+.red_color_theme .banner-icon.theme-color{
+    color: #DC143C;
+}
+.red_color_theme .btn.theme-color, .red_color_theme a.btn.theme-color{
+    background: #DC143C;
+    color: #fff;
+}
+.red_color_theme .social-icon.theme-color a:hover{
+    background: #DC143C;
+    color: #fff;
+}
+.red_color_theme .section-title h2 span.theme-color {
+  color: #DC143C;
+}
+.red_color_theme .review-list .owl-dots div.active{
+    background: #DC143C;
+}
+/*=========== end red ===========*/
+
+/*=========== green ===========*/
+.green_color_theme .main-menu ul.navbar-nav li.active a.theme-color{
+    color: #44b272;
+}
+.green_color_theme .main-menu ul.navbar-nav li:hover a.theme-color{
+    color: #44b272;
+}
+
+.green_color_theme .welcome-text h1 span.theme-color{
+    color: #44b272;
+}
+.green_color_theme .banner-icon.theme-color{
+    color: #44b272;
+}
+.green_color_theme .btn.theme-color, .green_color_theme a.btn.theme-color{
+    background: #44b272;
+    color: #fff;
+}
+.green_color_theme .social-icon.theme-color a:hover{
+    background: #44b272;
+    color: #fff;
+}
+.green_color_theme .section-title h2 span.theme-color {
+  color: #44b272;
+}
+.green_color_theme .review-list .owl-dots div.active{
+    background: #44b272;
+}
+/*=========== end green ===========*/
+
+/*=========== pink ===========*/
+.pink_color_theme .main-menu ul.navbar-nav li.active a.theme-color{
+    color: #D2527F;
+}
+.pink_color_theme .main-menu ul.navbar-nav li:hover a.theme-color{
+    color: #D2527F;
+}
+
+.pink_color_theme .welcome-text h1 span.theme-color{
+    color: #D2527F;
+}
+.pink_color_theme .banner-icon.theme-color{
+    color: #D2527F;
+}
+.pink_color_theme .btn.theme-color, .pink_color_theme a.btn.theme-color{
+    background: #D2527F;
+}
+.pink_color_theme .social-icon.theme-color a:hover{
+    background: #D2527F;
+    color: #fff;
+}
+.pink_color_theme .section-title h2 span.theme-color {
+  color: #D2527F;
+}
+.pink_color_theme .review-list .owl-dots div.active{
+    background: #D2527F;
+}
+/*=========== end pink ===========*/
+
+/*=========== purple ===========*/
+.purple_color_theme .main-menu ul.navbar-nav li.active a.theme-color{
+    color: #663399;
+}
+.purple_color_theme .main-menu ul.navbar-nav li:hover a.theme-color{
+    color: #663399;
+}
+
+.purple_color_theme .welcome-text h1 span.theme-color{
+    color: #663399;
+}
+.purple_color_theme .banner-icon.theme-color{
+    color: #663399;
+}
+.purple_color_theme .btn.theme-color, .purple_color_theme a.btn.theme-color{
+    background: #663399;
+    color: #fff;
+}
+.purple_color_theme .social-icon.theme-color a:hover{
+    background: #663399;
+    color: #fff;
+}
+.purple_color_theme .section-title h2 span.theme-color {
+  color: #663399;
+}
+.purple_color_theme .review-list .owl-dots div.active{
+    background: #663399;
+}
+/*=========== end purple ===========*/
+
+/*=========== blue ===========*/
+.blue_color_theme .main-menu ul.navbar-nav li.active a.theme-color{
+    color: #4183D7;
+}
+.blue_color_theme .main-menu ul.navbar-nav li:hover a.theme-color{
+    color: #4183D7;
+}
+
+.blue_color_theme .welcome-text h1 span.theme-color{
+    color: #4183D7;
+}
+.blue_color_theme .banner-icon.theme-color{
+    color: #4183D7;
+}
+.blue_color_theme .btn.theme-color, .blue_color_theme a.btn.theme-color{
+    background: #4183D7;
+    color: #fff;
+}
+.blue_color_theme .social-icon.theme-color a:hover{
+    background: #4183D7;
+    color: #fff;
+}
+.blue_color_theme .section-title h2 span.theme-color {
+  color: #4183D7;
+}
+.blue_color_theme .review-list .owl-dots div.active{
+    background: #4183D7;
+}
+/*=========== end red ===========*/
+
+
+/*================================================
+    00. base css
+==================================================*/
+video { 
+	position: fixed;
+	bottom: 0px;  
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: auto;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 2px;
+}
+pmin {
+	color: #fffef9;
+	font-size: 15px;
+}
+p{
+    color: #fffef9;
+}
+html,
+body { 
+    background: url(../pictures/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-attachment: fixed;
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/*================================================
+    01. preloader
+==================================================*/
+.preloader {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color:#fff;
+    z-index:9999999;
+}
+.preloader .spinner {
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+/*================================================
+    02. section title and section padding
+==================================================*/
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.section-title h2 span {
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.section-padding{
+    padding: 80px 0;
+}
+
+
+/*================================================
+    03. intro section
+==================================================*/
+.intro-section{
+    height: 100%;
+}
+.welcome-area{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.welcome-area:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: #000;*/
+    background: rgba(7, 10, 12, 0.45);
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    z-index: -1;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.welcome-table{
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.welcome-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.welcome-text{
+    
+}
+.welcome-text h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.welcome-text h4{
+    color: #fff;
+    margin: 15px 0;
+    font-size: 18px;
+    letter-spacing: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.welcome-text h1 span{
+    
+}
+.banner-icon {
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    bottom: 30px;
+    width: 50px;
+    -webkit-animation: 3s ease 0s normal none infinite running bounce;
+            animation: 3s ease 0s normal none infinite running bounce;
+    font-size: 40px;
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+a.banner-icon:focus{
+    background: none;
+    color: #fff;
+}
+
+
+/*** HEADER AREA ***/
+
+
+.custom-navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    padding: 10px 0;
+    background: transparent;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.custom-navbar.top-nav-collapse{
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.logo a{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 12px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.logo a:focus {
+    text-decoration: none;
+}
+
+.main-menu{
+    text-transform: uppercase;
+}
+.main-menu ul.navbar-nav{
+    float: right;
+}
+.main-menu ul.navbar-nav li.active a{
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.main-menu ul.navbar-nav li a{
+    color: #fff;
+    font-weight: 700;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.main-menu ul.navbar-nav li a:focus {
+    background: none;
+    outline: none;
+}
+.main-menu ul li:hover a{
+    background: none;
+}
+
+
+/*================================================
+    04. about section
+==================================================*/
+.about-section{
+	position: relative;
+	z-index: 1;
+}
+
+.about-section:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 10, 12, 0.45);
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    z-index: -1;
+}
+
+.author-image {
+  text-align: center;
+}
+
+.author-image img {
+    
+}
+
+.social-icon {
+    margin-top: 20px;
+    margin-left: -5px;
+    text-align: center;
+}
+.social-icon a{
+	position: relative;
+	height:50px;
+	width:135px;
+    color: #fff;
+    /*background: #000;*/
+    display: inline-table;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.social-icon a i{
+    display: table-cell;
+    vertical-align: middle;
+}
+.social-icon a:hover{
+}
+.about-text {
+  padding: 30px 0;
+}
+.about-text h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.about-text p{
+    font-size: 16px;
+    line-height: 28px;
+}
+.btn, a.btn {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 48px;
+    letter-spacing: 0.2em;
+    line-height: 48px;
+    overflow: hidden;
+    padding: 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    margin: 20px 20px 10px 0;
+    color: #000;
+    outline: none;
+}
+.btn.extra, a.btn.extra {
+  /*background: #000;*/
+    color: #fff;
+}
+
+
+.btn:focus, a.btn:focus {
+    outline: none;
+}
+.btn:hover, a.btn:hover{
+    opacity: 0.9;
+}
+.btn.extra:hover, a.btn.extra:hover{
+    opacity: 0.9;
+}
+
+
+/*================================================
+    05. service section
+==================================================*/
+.services-section{
+	position: relative;
+	z-index: 1;
+}
+
+.services-section:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 10, 12, 0.45);
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    z-index: -1;
+}
+
+.single-services{
+    color: #666;
+    
+}
+
+.servise-icon{
+    width: 100px;
+    height: 100px;
+    color: #000;
+    font-size: 65px;
+    margin: 0 auto;
+    display: inline-table;
+    text-align: center;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    
+}
+.servise-icon i{
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-services h4{
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+.single-services p{
+    font-size: 16px;
+}
+
+
+/*================================================
+    06. quotes area
+==================================================*/
+.quotes-area{
+	position: relative;
+	z-index: 1;
+}
+
+.quotes-area:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 10, 12, 0.45);
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    z-index: -1;
+}
+
+.quotes-content h3{
+    font-size: 42px;
+    margin-bottom: 25px;
+    font-size: 800;
+}
+.quotes-content p{
+   
+}
+
+/*================================================
+    07. footer section
+==================================================*/
+.footer{
+    padding: 15px 0;
+	position: relative;
+	z-index: 1;
+}
+
+.footer:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 10, 12, 0.45);
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    z-index: -1;
+}
+
+.footer-text {
+    font-size: 12px;
+}
+.footer-text p{
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.footer-text p strong {
+  letter-spacing: 1px;
+}

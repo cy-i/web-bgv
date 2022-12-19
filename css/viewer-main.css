@@ -1,0 +1,34 @@
+.docs-pictures {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.docs-pictures > li {
+  border: 1px solid transparent;
+  float: left;
+  height: calc(100% / 3);
+  margin: 0 -1px -1px 0;
+  overflow: hidden;
+  width: calc(100% / 3);
+}
+
+.docs-pictures > li > img {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  width: 100%;
+}
+
+.docs-buttons > .btn-group,
+.docs-buttons > .input-group {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.docs-buttons .input-group-prepend {
+  width: 50%;
+}
+
+.docs-buttons .input-group-prepend .btn {
+  width: 100%;
+}
